@@ -1,6 +1,7 @@
 # Handwritten-Digit-Recognition-using-Deep_Learning
 This is project for recognition of handwritten numerical digits(0-9) developed in Python using Deep Learning Neural Networks. 
 The frontend interface is designed using pygame.
+The Dataset that was used is MNIST.
 The modules required are-
   1. Numpy
   2. Keras
