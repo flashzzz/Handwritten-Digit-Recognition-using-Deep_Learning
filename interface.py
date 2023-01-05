@@ -44,6 +44,10 @@ while True:
             pygame.quit()
             sys.exit()
         
+        if event.type == KEYDOWN:
+                if event.key == K_c:
+                    DISPLAYSURF.fill(BLACK)
+        
         if event.type == MOUSEMOTION and iswriting:
             xcord, ycord = event.pos
             pygame.draw.circle(DISPLAYSURF, WHITE, (xcord, ycord), 4, 0)
@@ -81,8 +85,5 @@ while True:
                 textRecObj = textSurface.get_rect()
                 textRecObj.left , textRecObj.bottom = rect_min_x, rect_max_y
                 DISPLAYSURF.blit(textSurface, textRecObj)
-            if event.type == KEYDOWN:
-                if event.key == K_c:
-                    DISPLAYSURF.fill(BLACK)
             
         pygame.display.update()
