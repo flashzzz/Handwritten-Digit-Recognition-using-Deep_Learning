@@ -10,13 +10,16 @@ The dataset that I used is MNIST as it has a good number of training examples th
 ![image](https://user-images.githubusercontent.com/73419491/211145461-cc2aee2e-e397-418c-9aea-26ab4c7923c6.png)
 
 # Interface
-The interface is designed using pygame to create an interactive window on which user can draw multiple digits one by one.
-Also pressing the key 'c' clears the window.
+- The interface is designed using pygame to create an interactive window on which user can draw multiple digits one by one.
+- Pressing the key 'c' clears the window.
 
 ![screenshot 1](https://user-images.githubusercontent.com/73419491/211146205-c206ea5f-f2ef-4e91-aa98-127c2d2a1a33.PNG)
 
 # Details on the model
-The model is trained on Deep Neural Networks with an accuracy of 98.989%
-I have used a total of 3 layers including the output layer and Dropout(to prevent overfitting).
-For the hidden layers activation used is 'ReLU' and for the output/classification the activation is 'softmax'
-The model is trained on Deep Neural Networks with training accuracy of 99.84% and testing accuracy of 98.98%
+1) The model is trained on Deep Neural Networks with an accuracy of 98.989%
+2) I have used a total of 3 layers including the output layer and Dropout(to prevent overfitting).
+3) For the hidden layers activation used is 'ReLU' and for the output/classification the activation is 'softmax'.
+4) The model is trained on Deep Neural Networks with training accuracy of 99.84% and testing accuracy of 98.98%
+5) It can clssify most of the digits pretty accurately even with a few irregularities.
+
+![screenshot 2](https://user-images.githubusercontent.com/73419491/211147116-14674f84-360a-4786-a08f-f35c22d69334.PNG)
