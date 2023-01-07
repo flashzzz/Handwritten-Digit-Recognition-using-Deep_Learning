@@ -4,6 +4,8 @@ This project recognizes the handwritten numerical digits(0-9) that are drawn on 
 The dataset that I used is MNIST as it has a good number of training examples that allowed me to build a powerful and accurate model.
 ![image](https://user-images.githubusercontent.com/73419491/211145461-cc2aee2e-e397-418c-9aea-26ab4c7923c6.png)
 # Interface
-The interface is designed using pygame to create an interactive window on which user can draw multiple digits one by one. Also pressing the key 'c' clears the window.
+The interface is designed using pygame to create an interactive window on which user can draw multiple digits one by one.
+Also pressing the key 'c' clears the window.
+![screenshot 1](https://user-images.githubusercontent.com/73419491/211146205-c206ea5f-f2ef-4e91-aa98-127c2d2a1a33.PNG)
 # How to use the project
 Simply clone the repository and install all the packages in the requirements.txt file and run the interface.py file using python interpreter.
