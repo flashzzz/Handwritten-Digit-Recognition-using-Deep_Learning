@@ -11,7 +11,7 @@ The dataset that I used is MNIST as it has a good number of training examples th
 
 # Interface
 - The interface is designed using pygame to create an interactive window on which user can draw multiple digits one by one.
-- Pressing the key 'c' clears the window.
+- Pressing the key <kbd>c</kbd> clears the window.
 
 ![screenshot 1](https://user-images.githubusercontent.com/73419491/211146205-c206ea5f-f2ef-4e91-aa98-127c2d2a1a33.PNG)
 
