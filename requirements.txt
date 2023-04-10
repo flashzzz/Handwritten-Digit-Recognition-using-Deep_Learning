@@ -1,5 +1,5 @@
 numpy
-open-cv
+opencv-python
 pygame
 tensorflow
 keras
