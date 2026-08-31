@@ -1,3 +1,5 @@
+
+
 # Handwritten-Digit-Recognition-using-Deep_Learning
 This project recognizes the handwritten numerical digits(0-9) that are drawn on the drawing window.
 
@@ -19,6 +21,6 @@ The dataset that I used is MNIST as it has a good number of training examples th
 1) The model is built using Convolutional Neural Networks with a total of 3 layers including the output layer and Dropout(to prevent overfitting).
 2) For the hidden layers activation used is 'ReLU' and for the output/classification the activation is 'softmax'.
 3) The model is trained using Keras Sequential API with training accuracy of 99.84% and testing accuracy of 98.98%
-4) It can clssify most of the digits pretty accurately even with a few irregularities(as shown below).
+4) It can classify most of the digits pretty accurately even with a few irregularities(as shown below).
 
 ![screenshot 2](https://user-images.githubusercontent.com/73419491/211147116-14674f84-360a-4786-a08f-f35c22d69334.PNG)
